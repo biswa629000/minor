@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>Editkaro.in Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#all">All</a></li>
+                <li><a href="#photo">Photo Editing</a></li>
+                <li><a href="#video">Video Editing</a></li>
+                <li><a href="#graphics">Graphics Design</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="photo">Photo Editing</button>
+        <button class="filter-btn" data-category="video">Video Editing</button>
+        <button class="filter-btn" data-category="graphics">Graphics Design</button>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-container">
+        <div class="portfolio-item" data-category="photo">
+            <img src="photo1.jpg" alt="Photo Editing 1">
+            <h3>Photo Editing Project 1</h3>
+        </div>
+        <div class="portfolio-item" data-category="video">
+            <img src="video1.jpg" alt="Video Editing 1">
+            <h3>Video Editing Project 1</h3>
+        </div>
+        <div class="portfolio-item" data-category="graphics">
+            <img src="graphics1.jpg" alt="Graphics Design 1">
+            <h3>Graphics Design Project 1</h3>
+        </div>
+        <div class="portfolio-item" data-category="photo">
+            <img src="photo2.jpg" alt="Photo Editing 2">
+            <h3>Photo Editing Project 2</h3>
+        </div>
+        <div class="portfolio-item" data-category="video">
+            <img src="video2.jpg" alt="Video Editing 2">
+            <h3>Video Editing Project 2</h3>
+        </div>
+        <div class="portfolio-item" data-category="graphics">
+            <img src="graphics2.jpg" alt="Graphics Design 2">
+            <h3>Graphics Design Project 2</h3>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
